@@ -4,6 +4,7 @@
   "author": "10up",
   "description": "Component scaffold to use as a template for building new components.",
   "main": "./src/tenup-scaffold.js",
+  "style": "./dist/tenup-scaffold.css",
   "scripts": {
     "start": "npm install && npm run build",
     "build": "webpack",
