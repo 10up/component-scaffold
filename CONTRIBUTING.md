@@ -35,17 +35,18 @@ If you have an idea for a new component. Here are the general steps to getting y
 
 1. Clone a copy of the scaffold
 
-```
-mkdir component-accordion
-cd component-accordion
-git clone https://github.com/10up/component-scaffold.git .
-```
+    ```
+    mkdir component-accordion
+    cd component-accordion
+    git clone https://github.com/10up/component-scaffold.git .
+    ```
+
 2. Initialize your own Git repo
 
-```
-rm -rf .git
-git init
-```
+    ```
+    rm -rf .git
+    git init
+    ```
 
 3. Search and replace the `tenup-scaffold` string with your new component string, e.g. `component-accordion`.
 4. Begin engineering your new component. Please see the next section: [New component guidelines](#new-component-guidelines).
