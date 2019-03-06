@@ -1,3 +1,5 @@
+> NOTE: This is intended to be a boilerplate component. Clone this component, remove this comment, and use the rest as a starting point for your new compoent.
+
 # 10up Component Name
 
 Component Description
