@@ -58,7 +58,3 @@ Please keep in mind the following when creating a new component:
 * 10up generally aims for [WCAG 2.1](https://www.w3.org/TR/WCAG21/) AA-level accessibility.
 * Be sure to update your component's README.
 * Make liberal use of callbacks when writing a highly dynamic JavaScript-based component. See [`10up/component-accordion`](https://github.com/10up/component-accordion#callbacks) as an example.
-
-## Submitting a __new__ component
-
-_NEED CLARIFICATION FROM TIM HERE_
