@@ -12,8 +12,6 @@ The following is a set of guidelines for contributing to the __10up Component Sc
 [Creating a __new__ component](#creating-a-new-component)
 * [New component guidelines](#new-component-guidelines)
 
-[Submitting a __new__ component](#submitting-a-new-component)
-
 ## Getting Started
 
 The 10up Component Scaffold is a boilerplate for creating and contributing new components to the [10up Component Library](https://10up.github.io/wp-component-library/). 10up components are eventually packaged in to NPM packages. If you have never published an NPM package then we recommend checking out: [How to create and publish your npm package Node module in just 10 minutes](https://www.signet.hr/how-to-create-and-publish-your-npm-package-node-module-in-just-10-minutes/). This will give you familiarity of how your package should be organized to expedite the package publishing process.
