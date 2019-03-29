@@ -69,6 +69,10 @@ let myComponent = new TenUp.component( '.component', {
 } );
 ```
 
+## Testing
+
+Run and establish tests with [pa11y](https://github.com/pa11y/pa11y) integration. See: `tests/accessibility/pa11y.js` to get started.
+
 ## Demo
 
 Example implementations can be found in the `demo` directory.
