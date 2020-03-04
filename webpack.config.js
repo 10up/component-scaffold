@@ -1,7 +1,6 @@
 'use strict';
 
 const path = require( 'path' );
-const BrowserSyncPlugin = require( 'browser-sync-webpack-plugin' );
 const MiniCssExtractPlugin = require( 'mini-css-extract-plugin' );
 
 const componentName = 'tenup-scaffold';
@@ -49,15 +48,6 @@ module.exports = {
 		colors: true
 	},
 	plugins: [
-		new BrowserSyncPlugin( {
-			host: '0.0.0.0',
-			port: 3000,
-			server: { baseDir: [ __dirname ] },
-			notify: false,
-			files: ['index.html', 'dist/**/*'],
-			stream: { once: true },
-			injectChanges: true
-		} ),
 		new MiniCssExtractPlugin( {
 			filename: `${ componentName }.css`,
 		} ),
