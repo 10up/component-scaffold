@@ -15,9 +15,9 @@
 	'use strict';
 
 	/**
-	* Setting the global namespace of TenUpScaffold if it's not set already
-	* @namespace TenUpScaffold
-	*/
+	 * Setting the global namespace of TenUpScaffold if it's not set already
+	 * @namespace TenUpScaffold
+	 */
 	if ( 'object' !== typeof window.TenUpScaffold ) {
 		window.TenUpScaffold = {};
 	}
