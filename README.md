@@ -1,4 +1,4 @@
-> NOTE: This is intended to be a boilerplate component. Clone this component, remove this comment, and use the rest as a starting point for your new compoent.
+> NOTE: This is intended to be a boilerplate component. Clone this component, remove this comment, and use the rest as a starting point for your new component.
 
 # 10up Component Name
 
@@ -9,14 +9,16 @@ Component Description
 ## Installation
 
 ### NPM
- `npm install --save @10up/component-name`
+
+`npm install --save @10up/component-name`
 
 ### Standalone
- Clone this repo and import `component.js` and `component.css` from the `dist/` directory.
+
+Clone this repo and import `component.js` and `component.css` from the `dist/` directory.
 
 ## API
 
- This component accepts two arguments, the selector for the component container and an object containing optional callbacks.
+Add API information here.
 
 ### Callbacks
 
@@ -35,39 +37,27 @@ Component Description
 
 ### CSS
 
- The styles can be imported into your existing codebase by using PostCSS imports, or by including the standalone CSS file in your project.
+The styles can be imported into your existing codebase by using PostCSS imports, or by including the standalone CSS file in your project.
 
 #### PostCSS Imports
- `@import '@10up/component-name';`
+`@import '@10up/component-name';`
 
 #### Standalone
- Include the `component.css` file from the `dist/` directory.
+Include the `component.css` file from the `dist/` directory.
 
 ### JavaScript
 
- Create a new instance by supplying the selector to use for the component and an object containing any necessary callback functions.
+Create a new instance by supplying the selector to use for the component and an object containing any necessary callback functions.
 
 #### NPM
 
 ```javascript
-import component from '@10up/component-name';
+import TenUpScaffold from '@10up/tenup-scaffold';
 
-component( '.component', {
+TenUpScaffold( '.component', {
 	onCreate: function() {
 		console.log( 'onCreate callback' );
 	}
-} );
-```
-
-#### Standalone
-
-Include the `component.js` file from the `dist/` directory and access the component from the gobal `TenUp` object.
-
-```javascript
-let myComponent = new TenUp.component( '.component', {
-	onCreate: function() {
-		console.log( 'onCreate callback' );
-	},
 } );
 ```
 
