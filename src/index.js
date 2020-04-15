@@ -8,7 +8,7 @@
  *
  * A description goes here.
  *
- * [Link to demo]{@link https://10up.github.io/wp-component-library/}
+ * [Link to demo]{@link https://baseline.10up.com/component/tenup-scaffold}
  */
 ( function ( global ) {
 
