@@ -2,10 +2,7 @@
 
 # 10up Component Name
 
-[![Support Level](https://img.shields.io/badge/support-active-green.svg)](#support-level) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Build Status][cli-img]][cli-url]
-
-[cli-img]: https://github.com/10up/tenup-scaffold/workflows/Automated%20Tests/badge.svg
-[cli-url]: https://github.com/10up/tenup-scaffold/actions?query=workflow%3A%22Automated+Tests%22
+[![Support Level](https://img.shields.io/badge/support-active-green.svg)](#support-level) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![Automated Tests](https://github.com/10up/component-scaffold/workflows/Automated%20Tests/badge.svg)
 
 Component Description
 
