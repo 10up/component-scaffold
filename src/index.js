@@ -1,5 +1,4 @@
-/* global define, module, global */
-'use strict';
+/* global define */
 
 /**
  * @module @10up/TenUpScaffold
@@ -10,37 +9,36 @@
  *
  * [Link to demo]{@link https://baseline.10up.com/component/tenup-scaffold}
  */
-( function ( global ) {
-
-	'use strict';
-
+(function (global) {
 	/**
 	 * Setting the global namespace of TenUpScaffold if it's not set already
+	 *
 	 * @namespace TenUpScaffold
 	 */
-	if ( 'object' !== typeof window.TenUpScaffold ) {
+	if (typeof window.TenUpScaffold !== 'object') {
 		window.TenUpScaffold = {};
 	}
 
 	/**
 	 * TenUpScaffold primary function
+	 *
+	 * @param {object} options Misc. options for this component
 	 */
-	const TenUpScaffold = function ( options ) {
-
-		console.log( 'This component is working.' );
-		console.log( options );
-
+	const TenUpScaffold = function (options) {
+		console.log('This component is working.');
+		console.log(options);
 	};
 
 	// Export if supported. This is in place so the /dist naturally generates a supported version
-	if ( 'undefined' !== typeof module && 'undefined' !== typeof module.exports ) {
+	if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
 		module.exports = TenUpScaffold;
-	} else if ( 'function' === typeof define && define.amd ) {
-		define( 'TenUpScaffold', [], function () {
+	} else if (typeof define === 'function' && define.amd) {
+		define('TenUpScaffold', [], function () {
 			return TenUpScaffold;
-		} );
-	} else if ( 'object' === typeof global ) {
+		});
+	} else if (typeof global === 'object') {
+		/* eslint-disable */
 		global.TenUpScaffold = TenUpScaffold;
+		/* eslint-enable */
 	}
-
-} )( 'undefined' !== typeof global ? global : window );
+})(typeof global !== 'undefined' ? global : window);
