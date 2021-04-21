@@ -1,6 +1,8 @@
-> NOTE: This is intended to be a boilerplate component. Clone this component, remove this comment, and use the rest as a starting point for your new component.
-
 # 10up Component Name
+
+**DEPRECATED.** Please go to https://github.com/10up/component-library
+
+> NOTE: This is intended to be a boilerplate component. Clone this component, remove this comment, and use the rest as a starting point for your new component.
 
 [![Support Level](https://img.shields.io/badge/support-active-green.svg)](#support-level) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![Automated Tests](https://github.com/10up/component-scaffold/workflows/Automated%20Tests/badge.svg)
 
